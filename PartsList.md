@@ -12,3 +12,9 @@
     * http://www.digikey.com/product-detail/en/OSTTE030161/ED2636-ND/614585
     * $ 0.6000 @ QTY 32
 
+
+
+# Notes
+Free Shipping: http://dangerousprototypes.com/2011/05/19/free-digikey-shipping-tip/
+
+
