@@ -11,7 +11,11 @@
 * Terminal Block - 3 Connections Screw Type
     * http://www.digikey.com/product-detail/en/OSTTE030161/ED2636-ND/614585
     * $ 0.6000 @ QTY 32
-
+* Transistors - 2N2222
+    * http://www.digikey.com/product-detail/en/2N2222/2N2222CS-ND/4806844
+    * $ 1.6000 @ QTY 32
+* Resistors - 1K ohms
+    * 
 
 
 # Notes
