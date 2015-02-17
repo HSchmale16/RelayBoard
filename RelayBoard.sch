@@ -817,8 +817,6 @@ Connection ~ 9075 1150
 Wire Wire Line
 	10375 1150 10375 1225
 Connection ~ 9775 1150
-Wire Wire Line
-	11050 1150 11050 1225
 Connection ~ 10375 1150
 Wire Wire Line
 	1050 2375 1050 1925
@@ -1124,8 +1122,6 @@ Wire Wire Line
 	11250 1450 11650 1450
 Wire Wire Line
 	11650 1450 11650 1025
-Wire Wire Line
-	1350 1075 1350 1225
 Text GLabel 3950 2875 3    60   Input ~ 0
 Pin5
 Text GLabel 11725 5050 0    60   Input ~ 0
@@ -1588,45 +1584,45 @@ $EndComp
 $Comp
 L R R26
 U 1 1 54E37DEA
-P 6775 5925
-F 0 "R26" V 6855 5925 40  0000 C CNN
-F 1 "1K" V 6782 5926 40  0000 C CNN
-F 2 "" V 6705 5925 30  0000 C CNN
-F 3 "" H 6775 5925 30  0000 C CNN
-	1    6775 5925
+P 6775 5950
+F 0 "R26" V 6855 5950 40  0000 C CNN
+F 1 "1K" V 6782 5951 40  0000 C CNN
+F 2 "" V 6705 5950 30  0000 C CNN
+F 3 "" H 6775 5950 30  0000 C CNN
+	1    6775 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R27
 U 1 1 54E37DF0
-P 7275 5925
-F 0 "R27" V 7355 5925 40  0000 C CNN
-F 1 "1K" V 7282 5926 40  0000 C CNN
-F 2 "" V 7205 5925 30  0000 C CNN
-F 3 "" H 7275 5925 30  0000 C CNN
-	1    7275 5925
+P 7275 5950
+F 0 "R27" V 7355 5950 40  0000 C CNN
+F 1 "1K" V 7282 5951 40  0000 C CNN
+F 2 "" V 7205 5950 30  0000 C CNN
+F 3 "" H 7275 5950 30  0000 C CNN
+	1    7275 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R28
 U 1 1 54E37DF6
-P 7825 5925
-F 0 "R28" V 7905 5925 40  0000 C CNN
-F 1 "1K" V 7832 5926 40  0000 C CNN
-F 2 "" V 7755 5925 30  0000 C CNN
-F 3 "" H 7825 5925 30  0000 C CNN
-	1    7825 5925
+P 7825 5950
+F 0 "R28" V 7905 5950 40  0000 C CNN
+F 1 "1K" V 7832 5951 40  0000 C CNN
+F 2 "" V 7755 5950 30  0000 C CNN
+F 3 "" H 7825 5950 30  0000 C CNN
+	1    7825 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R29
 U 1 1 54E37DFC
-P 8325 5925
-F 0 "R29" V 8405 5925 40  0000 C CNN
-F 1 "1K" V 8332 5926 40  0000 C CNN
-F 2 "" V 8255 5925 30  0000 C CNN
-F 3 "" H 8325 5925 30  0000 C CNN
-	1    8325 5925
+P 8325 5950
+F 0 "R29" V 8405 5950 40  0000 C CNN
+F 1 "1K" V 8332 5951 40  0000 C CNN
+F 2 "" V 8255 5950 30  0000 C CNN
+F 3 "" H 8325 5950 30  0000 C CNN
+	1    8325 5950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1933,13 +1929,13 @@ Wire Wire Line
 Wire Wire Line
 	6175 5700 6175 5225
 Wire Wire Line
-	6775 5675 6775 5225
+	6775 5700 6775 5225
 Wire Wire Line
-	7275 5675 7275 5225
+	7275 5700 7275 5225
 Wire Wire Line
-	7825 5675 7825 5225
+	7825 5700 7825 5225
 Wire Wire Line
-	8325 5675 8325 5225
+	8325 5700 8325 5225
 Wire Wire Line
 	9025 5675 9025 5225
 Wire Wire Line
@@ -2260,8 +2256,6 @@ $EndComp
 Connection ~ 900  4450
 Wire Wire Line
 	11250 2125 11250 2350
-Wire Wire Line
-	10800 5425 10800 5575
 Text GLabel 8275 2875 3    60   Input ~ 0
 Pin12
 Text GLabel 8775 2875 3    60   Input ~ 0
@@ -2314,4 +2308,42 @@ Text GLabel 11725 5950 0    60   Input ~ 0
 Pin23
 Text GLabel 12925 5950 2    60   Input ~ 0
 Pin24
+Text GLabel 6175 6200 3    60   Input ~ 0
+Pin25
+Text GLabel 6775 6200 3    60   Input ~ 0
+Pin26
+Text GLabel 7275 6200 3    60   Input ~ 0
+Pin27
+Text GLabel 7825 6200 3    60   Input ~ 0
+Pin28
+Text GLabel 11725 6050 0    60   Input ~ 0
+Pin25
+Text GLabel 12925 6050 2    60   Input ~ 0
+Pin26
+Text GLabel 11725 6150 0    60   Input ~ 0
+Pin27
+Text GLabel 12925 6150 2    60   Input ~ 0
+Pin28
+Text GLabel 8325 6200 3    60   Input ~ 0
+Pin29
+Text GLabel 9025 6175 3    60   Input ~ 0
+Pin30
+Text GLabel 9625 6175 3    60   Input ~ 0
+Pin31
+Text GLabel 10300 6175 3    60   Input ~ 0
+Pin32
+Text GLabel 11725 6250 0    60   Input ~ 0
+Pin29
+Text GLabel 12925 6250 2    60   Input ~ 0
+Pin30
+Text GLabel 11725 6350 0    60   Input ~ 0
+Pin31
+Text GLabel 12925 6350 2    60   Input ~ 0
+Pin32
+Wire Wire Line
+	10800 5425 10800 5575
+Wire Wire Line
+	11050 1150 11050 1225
+Wire Wire Line
+	1350 1225 1350 1075
 $EndSCHEMATC
