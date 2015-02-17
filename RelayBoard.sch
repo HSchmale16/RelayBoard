@@ -2282,4 +2282,36 @@ Text GLabel 11725 5550 0    60   Input ~ 0
 Pin15
 Text GLabel 12925 5550 2    60   Input ~ 0
 Pin16
+Text GLabel 600  6175 3    60   Input ~ 0
+Pin17
+Text GLabel 1450 6175 3    60   Input ~ 0
+Pin18
+Text GLabel 2200 6175 3    60   Input ~ 0
+Pin19
+Text GLabel 2850 6175 3    60   Input ~ 0
+Pin20
+Text GLabel 3500 6175 3    60   Input ~ 0
+Pin21
+Text GLabel 4150 6175 3    60   Input ~ 0
+Pin22
+Text GLabel 4850 6175 3    60   Input ~ 0
+Pin23
+Text GLabel 5550 6175 3    60   Input ~ 0
+Pin24
+Text GLabel 11725 5650 0    60   Input ~ 0
+Pin17
+Text GLabel 12925 5650 2    60   Input ~ 0
+Pin18
+Text GLabel 11725 5750 0    60   Input ~ 0
+Pin19
+Text GLabel 12925 5750 2    60   Input ~ 0
+Pin20
+Text GLabel 11725 5850 0    60   Input ~ 0
+Pin21
+Text GLabel 12925 5850 2    60   Input ~ 0
+Pin22
+Text GLabel 11725 5950 0    60   Input ~ 0
+Pin23
+Text GLabel 12925 5950 2    60   Input ~ 0
+Pin24
 $EndSCHEMATC
