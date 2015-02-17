@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2014-jan-25)-product date = Tue 17 Feb 2015 01:31:57 PM EST
+Cmp-Mod V01 Created by CvPcb (2014-jan-25)-product date = Tue 17 Feb 2015 03:00:06 PM EST
 
 BeginCmp
 TimeStamp = /54E1A6C2;
 Reference = P1;
 ValeurCmp = HE10-32;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x16;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x32;
 EndCmp
 
 BeginCmp
@@ -466,224 +466,224 @@ BeginCmp
 TimeStamp = /54E37CF4;
 Reference = RE1;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E15EE0;
 Reference = RE2;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E37CFA;
 Reference = RE3;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E15F00;
 Reference = RE4;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E37D00;
 Reference = RE5;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E15F14;
 Reference = RE6;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E37D06;
 Reference = RE7;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E15F28;
 Reference = RE8;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E37D0C;
 Reference = RE9;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E15F3C;
 Reference = RE10;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E37D12;
 Reference = RE11;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E15F50;
 Reference = RE12;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E37D18;
 Reference = RE13;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E15F64;
 Reference = RE14;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E37D1E;
 Reference = RE15;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E15F78;
 Reference = RE16;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E37D24;
 Reference = RE17;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E15FDA;
 Reference = RE18;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E37D2A;
 Reference = RE19;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E15FE5;
 Reference = RE20;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E37D30;
 Reference = RE21;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E15FF0;
 Reference = RE22;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E37D36;
 Reference = RE23;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E15FFB;
 Reference = RE24;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E37D3C;
 Reference = RE25;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E16006;
 Reference = RE26;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E37D42;
 Reference = RE27;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E16011;
 Reference = RE28;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E37D48;
 Reference = RE29;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E16026;
 Reference = RE30;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E37D4E;
 Reference = RE31;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54E16031;
 Reference = RE32;
 ValeurCmp = R-SPDT;
-IdModule  = ;
+IdModule  = RelayLib:R-SPDT;
 EndCmp
 
 BeginCmp

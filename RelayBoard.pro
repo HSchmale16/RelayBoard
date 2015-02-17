@@ -1,6 +1,6 @@
-update=Tue 17 Feb 2015 02:33:56 PM EST
+update=Tue 17 Feb 2015 03:20:06 PM EST
 version=1
-last_client=cvpcb
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -81,10 +81,10 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=RelayLib
-[general]
-version=1
 [cvpcb]
 version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[general]
+version=1
