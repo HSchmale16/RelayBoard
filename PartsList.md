@@ -15,7 +15,11 @@
     * http://www.digikey.com/product-detail/en/2N2222/2N2222CS-ND/4806844
     * $ 1.6000 @ QTY 32
 * Resistors - 1K ohms
-    * 
+    * http://www.digikey.com/product-detail/en/CFR-25JB-52-1K/1.0KQBK-ND/96
+    * $0.04400 @ QTY 32
+* Copper Clad Board - 12" x 12"
+    * http://www.digikey.com/product-detail/en/555/473-1007-ND/559707
+    * $ 22.4200 @ QTY 01
 
 
 # Notes
