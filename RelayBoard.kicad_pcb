@@ -32,7 +32,7 @@
   )
 
   (setup
-    (last_trace_width 0.254)
+    (last_trace_width 0.95)
     (trace_clearance 0.254)
     (zone_clearance 0.508)
     (zone_45_only no)
@@ -284,7 +284,7 @@
 
   (net_class Default "This is the default net class."
     (clearance 0.254)
-    (trace_width 0.254)
+    (trace_width 0.95)
     (via_dia 0.889)
     (via_drill 0.635)
     (uvia_dia 0.508)
@@ -687,7 +687,7 @@
   )
 
   (module Discret:TO18CBE (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3A98B)
-    (at 60.96 110.49 180)
+    (at 60.96 119.38 180)
     (descr "Transistor TO18")
     (tags TO18)
     (path /54E1642D)
@@ -715,7 +715,7 @@
   )
 
   (module Discret:TO18CBE (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3A996)
-    (at 105.41 80.01)
+    (at 74.93 80.01)
     (descr "Transistor TO18")
     (tags TO18)
     (path /54E3F839)
@@ -771,7 +771,7 @@
   )
 
   (module Discret:TO18CBE (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3A9AC)
-    (at -71.174599 141.19)
+    (at 90.17 80.01)
     (descr "Transistor TO18")
     (tags TO18)
     (path /54E3F83F)
@@ -1995,15 +1995,15 @@
   )
 
   (module Discret:R3 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3ABAD)
-    (at -89.2875 140.9197)
+    (at 121.92 87.63 270)
     (descr "Resitance 3 pas")
     (tags R)
     (path /54E3F8BD)
     (autoplace_cost180 10)
-    (fp_text reference R17 (at 0 0.127) (layer F.SilkS) hide
+    (fp_text reference R17 (at 0 0.127 270) (layer F.SilkS) hide
       (effects (font (size 1.397 1.27) (thickness 0.2032)))
     )
-    (fp_text value 1K (at 0 0.127) (layer F.SilkS)
+    (fp_text value 1K (at 0 0.127 270) (layer F.SilkS)
       (effects (font (size 1.397 1.27) (thickness 0.2032)))
     )
     (fp_line (start -3.81 0) (end -3.302 0) (layer F.SilkS) (width 0.2032))
@@ -2014,9 +2014,9 @@
     (fp_line (start -3.302 1.016) (end 3.302 1.016) (layer F.SilkS) (width 0.2032))
     (fp_line (start 3.302 1.016) (end 3.302 0) (layer F.SilkS) (width 0.2032))
     (fp_line (start -3.302 -0.508) (end -2.794 -1.016) (layer F.SilkS) (width 0.2032))
-    (pad 1 thru_hole circle (at -3.81 0) (size 1.397 1.397) (drill 0.8128) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole circle (at -3.81 0 270) (size 1.397 1.397) (drill 0.8128) (layers *.Cu *.Mask F.SilkS)
       (net 51 "Net-(Q17-Pad2)"))
-    (pad 2 thru_hole circle (at 3.81 0) (size 1.397 1.397) (drill 0.8128) (layers *.Cu *.Mask F.SilkS)
+    (pad 2 thru_hole circle (at 3.81 0 270) (size 1.397 1.397) (drill 0.8128) (layers *.Cu *.Mask F.SilkS)
       (net 25 Pin25))
     (model discret/resistor.wrl
       (at (xyz 0 0 0))
@@ -2516,7 +2516,7 @@
   )
 
   (module RelayLib:R-SPDT (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AC99)
-    (at 35.56 133.35 90)
+    (at 35.56 142.24 90)
     (path /54E15EE0)
     (fp_text reference RE2 (at 12 5.8 90) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -2566,7 +2566,7 @@
   )
 
   (module RelayLib:R-SPDT (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3ACB3)
-    (at 52.07 133.35 90)
+    (at 52.07 142.24 90)
     (path /54E15F00)
     (fp_text reference RE4 (at 12 5.8 90) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -2616,7 +2616,7 @@
   )
 
   (module RelayLib:R-SPDT (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3ACCD)
-    (at 68.58 133.35 90)
+    (at 68.58 142.24 90)
     (path /54E15F14)
     (fp_text reference RE6 (at 12 5.8 90) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -2666,7 +2666,7 @@
   )
 
   (module RelayLib:R-SPDT (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3ACE7)
-    (at 85.09 133.35 90)
+    (at 85.09 142.24 90)
     (path /54E15F28)
     (fp_text reference RE8 (at 12 5.8 90) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -2716,7 +2716,7 @@
   )
 
   (module RelayLib:R-SPDT (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AD01)
-    (at 101.6 133.35 90)
+    (at 101.6 142.24 90)
     (path /54E15F3C)
     (fp_text reference RE10 (at 12 5.8 90) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -2766,7 +2766,7 @@
   )
 
   (module RelayLib:R-SPDT (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AD1B)
-    (at 118.11 133.35 90)
+    (at 118.11 142.24 90)
     (path /54E15F50)
     (fp_text reference RE12 (at 12 5.8 90) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -2816,7 +2816,7 @@
   )
 
   (module RelayLib:R-SPDT (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AD35)
-    (at 134.62 133.35 90)
+    (at 134.62 142.24 90)
     (path /54E15F64)
     (fp_text reference RE14 (at 12 5.8 90) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -2866,7 +2866,7 @@
   )
 
   (module RelayLib:R-SPDT (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AD4F)
-    (at 151.13 133.35 90)
+    (at 151.13 142.24 90)
     (path /54E15F78)
     (fp_text reference RE16 (at 12 5.8 90) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -2916,7 +2916,7 @@
   )
 
   (module RelayLib:R-SPDT (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AD69)
-    (at 167.64 133.35 90)
+    (at 167.64 142.24 90)
     (path /54E15FDA)
     (fp_text reference RE18 (at 12 5.8 90) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -2966,7 +2966,7 @@
   )
 
   (module RelayLib:R-SPDT (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AD83)
-    (at 184.15 133.35 90)
+    (at 184.15 142.24 90)
     (path /54E15FE5)
     (fp_text reference RE20 (at 12 5.8 90) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -3016,7 +3016,7 @@
   )
 
   (module RelayLib:R-SPDT (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AD9D)
-    (at 200.66 133.35 90)
+    (at 200.66 142.24 90)
     (path /54E15FF0)
     (fp_text reference RE22 (at 12 5.8 90) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -3066,7 +3066,7 @@
   )
 
   (module RelayLib:R-SPDT (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3ADB7)
-    (at 217.17 133.35 90)
+    (at 217.17 142.24 90)
     (path /54E15FFB)
     (fp_text reference RE24 (at 12 5.8 90) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -3116,7 +3116,7 @@
   )
 
   (module RelayLib:R-SPDT (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3ADD1)
-    (at 233.68 133.35 90)
+    (at 233.68 142.24 90)
     (path /54E16006)
     (fp_text reference RE26 (at 12 5.8 90) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -3166,7 +3166,7 @@
   )
 
   (module RelayLib:R-SPDT (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3ADEB)
-    (at 250.19 133.35 90)
+    (at 250.19 142.24 90)
     (path /54E16011)
     (fp_text reference RE28 (at 12 5.8 90) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -3216,7 +3216,7 @@
   )
 
   (module RelayLib:R-SPDT (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AE05)
-    (at 266.7 133.35 90)
+    (at 266.7 142.24 90)
     (path /54E16026)
     (fp_text reference RE30 (at 12 5.8 90) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -3266,7 +3266,7 @@
   )
 
   (module RelayLib:R-SPDT (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AE1F)
-    (at 283.21 133.35 90)
+    (at 283.21 142.24 90)
     (path /54E16031)
     (fp_text reference RE32 (at 12 5.8 90) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -3291,7 +3291,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AE2D)
-    (at -113.268999 217.051001 180)
+    (at 41.91 48.26 180)
     (path /54E3F8ED)
     (fp_text reference TB1 (at 0 -2.286 180) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
@@ -3320,7 +3320,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AE3B)
-    (at -101.808999 207.7838)
+    (at 43.18 146.05)
     (path /54E17CC8)
     (fp_text reference TB2 (at 0 -2.286) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
@@ -3349,12 +3349,12 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AE49)
-    (at -58.638999 162.4938)
+    (at 58.42 48.26 180)
     (path /54E3F8F3)
-    (fp_text reference TB3 (at 0 -2.286) (layer F.SilkS)
+    (fp_text reference TB3 (at 0 -2.286 180) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
-    (fp_text value TermBlk (at 0 0) (layer F.SilkS) hide
+    (fp_text value TermBlk (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
     (fp_line (start -1.27 1.27) (end 3.81 1.27) (layer F.SilkS) (width 0.254))
@@ -3364,11 +3364,11 @@
     (fp_line (start -1.27 -1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 -1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
-    (pad 1 thru_hole rect (at -2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole rect (at -2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 74 "Net-(RE3-Pad1)"))
-    (pad 2 thru_hole oval (at 0 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 2 thru_hole oval (at 0 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 73 "Net-(RE3-Pad2)"))
-    (pad 3 thru_hole oval (at 2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 3 thru_hole oval (at 2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 75 "Net-(RE3-Pad3)"))
     (model Socket_Strips/Socket_Strip_Straight_1x03.wrl
       (at (xyz 0 0 0))
@@ -3378,7 +3378,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AE57)
-    (at -49.128999 137.5338)
+    (at 59.69 146.05)
     (path /54E17CDC)
     (fp_text reference TB4 (at 0 -2.286) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
@@ -3407,12 +3407,12 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AE65)
-    (at -67.018999 165.3538)
+    (at 74.93 48.26 180)
     (path /54E3F8F9)
-    (fp_text reference TB5 (at 0 -2.286) (layer F.SilkS)
+    (fp_text reference TB5 (at 0 -2.286 180) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
-    (fp_text value TermBlk (at 0 0) (layer F.SilkS) hide
+    (fp_text value TermBlk (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
     (fp_line (start -1.27 1.27) (end 3.81 1.27) (layer F.SilkS) (width 0.254))
@@ -3422,11 +3422,11 @@
     (fp_line (start -1.27 -1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 -1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
-    (pad 1 thru_hole rect (at -2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole rect (at -2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 80 "Net-(RE5-Pad1)"))
-    (pad 2 thru_hole oval (at 0 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 2 thru_hole oval (at 0 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 79 "Net-(RE5-Pad2)"))
-    (pad 3 thru_hole oval (at 2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 3 thru_hole oval (at 2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 81 "Net-(RE5-Pad3)"))
     (model Socket_Strips/Socket_Strip_Straight_1x03.wrl
       (at (xyz 0 0 0))
@@ -3436,7 +3436,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AE73)
-    (at -110.188999 205.5038)
+    (at 76.2 146.05)
     (path /54E17CF0)
     (fp_text reference TB6 (at 0 -2.286) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
@@ -3465,12 +3465,12 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AE81)
-    (at -94.588999 188.5438)
+    (at 91.44 48.26 180)
     (path /54E3F8FF)
-    (fp_text reference TB7 (at 0 -2.286) (layer F.SilkS)
+    (fp_text reference TB7 (at 0 -2.286 180) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
-    (fp_text value TermBlk (at 0 0) (layer F.SilkS) hide
+    (fp_text value TermBlk (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
     (fp_line (start -1.27 1.27) (end 3.81 1.27) (layer F.SilkS) (width 0.254))
@@ -3480,11 +3480,11 @@
     (fp_line (start -1.27 -1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 -1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
-    (pad 1 thru_hole rect (at -2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole rect (at -2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 86 "Net-(RE7-Pad1)"))
-    (pad 2 thru_hole oval (at 0 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 2 thru_hole oval (at 0 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 85 "Net-(RE7-Pad2)"))
-    (pad 3 thru_hole oval (at 2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 3 thru_hole oval (at 2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 87 "Net-(RE7-Pad3)"))
     (model Socket_Strips/Socket_Strip_Straight_1x03.wrl
       (at (xyz 0 0 0))
@@ -3494,7 +3494,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AE8F)
-    (at -101.818999 197.0238)
+    (at 92.71 146.05)
     (path /54E17D04)
     (fp_text reference TB8 (at 0 -2.286) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
@@ -3523,12 +3523,12 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AE9D)
-    (at -85.388999 179.2138)
+    (at 107.95 48.26 180)
     (path /54E3F905)
-    (fp_text reference TB9 (at 0 -2.286) (layer F.SilkS)
+    (fp_text reference TB9 (at 0 -2.286 180) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
-    (fp_text value TermBlk (at 0 0) (layer F.SilkS) hide
+    (fp_text value TermBlk (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
     (fp_line (start -1.27 1.27) (end 3.81 1.27) (layer F.SilkS) (width 0.254))
@@ -3538,11 +3538,11 @@
     (fp_line (start -1.27 -1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 -1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
-    (pad 1 thru_hole rect (at -2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole rect (at -2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 92 "Net-(RE9-Pad1)"))
-    (pad 2 thru_hole oval (at 0 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 2 thru_hole oval (at 0 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 91 "Net-(RE9-Pad2)"))
-    (pad 3 thru_hole oval (at 2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 3 thru_hole oval (at 2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 93 "Net-(RE9-Pad3)"))
     (model Socket_Strips/Socket_Strip_Straight_1x03.wrl
       (at (xyz 0 0 0))
@@ -3552,7 +3552,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AEAB)
-    (at -118.568999 213.7538)
+    (at 109.22 146.05)
     (path /54E17D18)
     (fp_text reference TB10 (at 0 -2.286) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
@@ -3581,12 +3581,12 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AEB9)
-    (at -49.128999 142.9138)
+    (at 124.46 48.26 180)
     (path /54E3F90B)
-    (fp_text reference TB11 (at 0 -2.286) (layer F.SilkS)
+    (fp_text reference TB11 (at 0 -2.286 180) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
-    (fp_text value TermBlk (at 0 0) (layer F.SilkS) hide
+    (fp_text value TermBlk (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
     (fp_line (start -1.27 1.27) (end 3.81 1.27) (layer F.SilkS) (width 0.254))
@@ -3596,11 +3596,11 @@
     (fp_line (start -1.27 -1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 -1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
-    (pad 1 thru_hole rect (at -2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole rect (at -2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 98 "Net-(RE11-Pad1)"))
-    (pad 2 thru_hole oval (at 0 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 2 thru_hole oval (at 0 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 97 "Net-(RE11-Pad2)"))
-    (pad 3 thru_hole oval (at 2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 3 thru_hole oval (at 2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 99 "Net-(RE11-Pad3)"))
     (model Socket_Strips/Socket_Strip_Straight_1x03.wrl
       (at (xyz 0 0 0))
@@ -3610,7 +3610,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AEC7)
-    (at -57.498999 151.7338)
+    (at 125.73 146.05)
     (path /54E17D2C)
     (fp_text reference TB12 (at 0 -2.286) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
@@ -3639,12 +3639,12 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AED5)
-    (at -82.628999 173.8338)
+    (at 140.97 48.26 180)
     (path /54E3F911)
-    (fp_text reference TB13 (at 0 -2.286) (layer F.SilkS)
+    (fp_text reference TB13 (at 0 -2.286 180) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
-    (fp_text value TermBlk (at 0 0) (layer F.SilkS) hide
+    (fp_text value TermBlk (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
     (fp_line (start -1.27 1.27) (end 3.81 1.27) (layer F.SilkS) (width 0.254))
@@ -3654,11 +3654,11 @@
     (fp_line (start -1.27 -1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 -1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
-    (pad 1 thru_hole rect (at -2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole rect (at -2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 104 "Net-(RE13-Pad1)"))
-    (pad 2 thru_hole oval (at 0 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 2 thru_hole oval (at 0 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 103 "Net-(RE13-Pad2)"))
-    (pad 3 thru_hole oval (at 2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 3 thru_hole oval (at 2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 105 "Net-(RE13-Pad3)"))
     (model Socket_Strips/Socket_Strip_Straight_1x03.wrl
       (at (xyz 0 0 0))
@@ -3668,7 +3668,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AEE3)
-    (at -65.878999 157.1138)
+    (at 142.24 146.05)
     (path /54E17DA2)
     (fp_text reference TB14 (at 0 -2.286) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
@@ -3697,12 +3697,12 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AEF1)
-    (at -85.388999 184.5938)
+    (at 157.48 48.26 180)
     (path /54E3F917)
-    (fp_text reference TB15 (at 0 -2.286) (layer F.SilkS)
+    (fp_text reference TB15 (at 0 -2.286 180) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
-    (fp_text value TermBlk (at 0 0) (layer F.SilkS) hide
+    (fp_text value TermBlk (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
     (fp_line (start -1.27 1.27) (end 3.81 1.27) (layer F.SilkS) (width 0.254))
@@ -3712,11 +3712,11 @@
     (fp_line (start -1.27 -1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 -1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
-    (pad 1 thru_hole rect (at -2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole rect (at -2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 110 "Net-(RE15-Pad1)"))
-    (pad 2 thru_hole oval (at 0 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 2 thru_hole oval (at 0 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 109 "Net-(RE15-Pad2)"))
-    (pad 3 thru_hole oval (at 2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 3 thru_hole oval (at 2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 111 "Net-(RE15-Pad3)"))
     (model Socket_Strips/Socket_Strip_Straight_1x03.wrl
       (at (xyz 0 0 0))
@@ -3726,7 +3726,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AEFF)
-    (at -118.568999 208.3738)
+    (at 158.75 146.05)
     (path /54E17DB6)
     (fp_text reference TB16 (at 0 -2.286) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
@@ -3755,12 +3755,12 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AF0D)
-    (at -75.398999 165.3538)
+    (at 173.99 48.26 180)
     (path /54E3F91D)
-    (fp_text reference TB17 (at 0 -2.286) (layer F.SilkS)
+    (fp_text reference TB17 (at 0 -2.286 180) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
-    (fp_text value TermBlk (at 0 0) (layer F.SilkS) hide
+    (fp_text value TermBlk (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
     (fp_line (start -1.27 1.27) (end 3.81 1.27) (layer F.SilkS) (width 0.254))
@@ -3770,11 +3770,11 @@
     (fp_line (start -1.27 -1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 -1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
-    (pad 1 thru_hole rect (at -2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole rect (at -2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 116 "Net-(RE17-Pad1)"))
-    (pad 2 thru_hole oval (at 0 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 2 thru_hole oval (at 0 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 115 "Net-(RE17-Pad2)"))
-    (pad 3 thru_hole oval (at 2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 3 thru_hole oval (at 2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 117 "Net-(RE17-Pad3)"))
     (model Socket_Strips/Socket_Strip_Straight_1x03.wrl
       (at (xyz 0 0 0))
@@ -3784,7 +3784,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AF1B)
-    (at -65.878999 151.7338)
+    (at 175.26 146.05)
     (path /54E17DCA)
     (fp_text reference TB18 (at 0 -2.286) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
@@ -3813,12 +3813,12 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AF29)
-    (at -145.268999 220.0838)
+    (at 190.5 48.26 180)
     (path /54E3F923)
-    (fp_text reference TB19 (at 0 -2.286) (layer F.SilkS)
+    (fp_text reference TB19 (at 0 -2.286 180) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
-    (fp_text value TermBlk (at 0 0) (layer F.SilkS) hide
+    (fp_text value TermBlk (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
     (fp_line (start -1.27 1.27) (end 3.81 1.27) (layer F.SilkS) (width 0.254))
@@ -3828,11 +3828,11 @@
     (fp_line (start -1.27 -1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 -1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
-    (pad 1 thru_hole rect (at -2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole rect (at -2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 122 "Net-(RE19-Pad1)"))
-    (pad 2 thru_hole oval (at 0 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 2 thru_hole oval (at 0 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 121 "Net-(RE19-Pad2)"))
-    (pad 3 thru_hole oval (at 2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 3 thru_hole oval (at 2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 123 "Net-(RE19-Pad3)"))
     (model Socket_Strips/Socket_Strip_Straight_1x03.wrl
       (at (xyz 0 0 0))
@@ -3842,7 +3842,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AF37)
-    (at -153.648999 220.0838)
+    (at 191.77 146.05)
     (path /54E17DDE)
     (fp_text reference TB20 (at 0 -2.286) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
@@ -3871,12 +3871,12 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AF45)
-    (at -65.868999 176.1138)
+    (at 207.01 48.26 180)
     (path /54E3F929)
-    (fp_text reference TB21 (at 0 -2.286) (layer F.SilkS)
+    (fp_text reference TB21 (at 0 -2.286 180) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
-    (fp_text value TermBlk (at 0 0) (layer F.SilkS) hide
+    (fp_text value TermBlk (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
     (fp_line (start -1.27 1.27) (end 3.81 1.27) (layer F.SilkS) (width 0.254))
@@ -3886,11 +3886,11 @@
     (fp_line (start -1.27 -1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 -1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
-    (pad 1 thru_hole rect (at -2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole rect (at -2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 128 "Net-(RE21-Pad1)"))
-    (pad 2 thru_hole oval (at 0 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 2 thru_hole oval (at 0 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 127 "Net-(RE21-Pad2)"))
-    (pad 3 thru_hole oval (at 2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 3 thru_hole oval (at 2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 129 "Net-(RE21-Pad3)"))
     (model Socket_Strips/Socket_Strip_Straight_1x03.wrl
       (at (xyz 0 0 0))
@@ -3900,7 +3900,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AF53)
-    (at -57.498999 157.1138)
+    (at 208.28 146.05)
     (path /54E17DF2)
     (fp_text reference TB22 (at 0 -2.286) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
@@ -3929,12 +3929,12 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AF61)
-    (at -77.008999 181.4938)
+    (at 223.52 48.26 180)
     (path /54E3F92F)
-    (fp_text reference TB23 (at 0 -2.286) (layer F.SilkS)
+    (fp_text reference TB23 (at 0 -2.286 180) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
-    (fp_text value TermBlk (at 0 0) (layer F.SilkS) hide
+    (fp_text value TermBlk (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
     (fp_line (start -1.27 1.27) (end 3.81 1.27) (layer F.SilkS) (width 0.254))
@@ -3944,11 +3944,11 @@
     (fp_line (start -1.27 -1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 -1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
-    (pad 1 thru_hole rect (at -2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole rect (at -2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 134 "Net-(RE23-Pad1)"))
-    (pad 2 thru_hole oval (at 0 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 2 thru_hole oval (at 0 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 133 "Net-(RE23-Pad2)"))
-    (pad 3 thru_hole oval (at 2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 3 thru_hole oval (at 2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 135 "Net-(RE23-Pad3)"))
     (model Socket_Strips/Socket_Strip_Straight_1x03.wrl
       (at (xyz 0 0 0))
@@ -3958,7 +3958,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AF6F)
-    (at -65.868999 170.7338)
+    (at 224.79 146.05)
     (path /54E17E06)
     (fp_text reference TB24 (at 0 -2.286) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
@@ -3987,12 +3987,12 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AF7D)
-    (at -49.118999 153.6738)
+    (at 240.03 48.26 180)
     (path /54E3F935)
-    (fp_text reference TB25 (at 0 -2.286) (layer F.SilkS)
+    (fp_text reference TB25 (at 0 -2.286 180) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
-    (fp_text value TermBlk (at 0 0) (layer F.SilkS) hide
+    (fp_text value TermBlk (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
     (fp_line (start -1.27 1.27) (end 3.81 1.27) (layer F.SilkS) (width 0.254))
@@ -4002,11 +4002,11 @@
     (fp_line (start -1.27 -1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 -1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
-    (pad 1 thru_hole rect (at -2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole rect (at -2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 140 "Net-(RE25-Pad1)"))
-    (pad 2 thru_hole oval (at 0 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 2 thru_hole oval (at 0 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 139 "Net-(RE25-Pad2)"))
-    (pad 3 thru_hole oval (at 2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 3 thru_hole oval (at 2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 141 "Net-(RE25-Pad3)"))
     (model Socket_Strips/Socket_Strip_Straight_1x03.wrl
       (at (xyz 0 0 0))
@@ -4016,7 +4016,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AF8B)
-    (at -101.808999 202.4038)
+    (at 241.3 146.05)
     (path /54E17E1A)
     (fp_text reference TB26 (at 0 -2.286) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
@@ -4045,12 +4045,12 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AF99)
-    (at -93.438999 193.9238)
+    (at 256.54 48.26 180)
     (path /54E3F93B)
-    (fp_text reference TB27 (at 0 -2.286) (layer F.SilkS)
+    (fp_text reference TB27 (at 0 -2.286 180) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
-    (fp_text value TermBlk (at 0 0) (layer F.SilkS) hide
+    (fp_text value TermBlk (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
     (fp_line (start -1.27 1.27) (end 3.81 1.27) (layer F.SilkS) (width 0.254))
@@ -4060,11 +4060,11 @@
     (fp_line (start -1.27 -1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 -1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
-    (pad 1 thru_hole rect (at -2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole rect (at -2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 146 "Net-(RE27-Pad1)"))
-    (pad 2 thru_hole oval (at 0 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 2 thru_hole oval (at 0 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 145 "Net-(RE27-Pad2)"))
-    (pad 3 thru_hole oval (at 2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 3 thru_hole oval (at 2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 147 "Net-(RE27-Pad3)"))
     (model Socket_Strips/Socket_Strip_Straight_1x03.wrl
       (at (xyz 0 0 0))
@@ -4074,7 +4074,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AFA7)
-    (at -121.648999 219.1338)
+    (at 257.81 146.05)
     (path /54E17E2E)
     (fp_text reference TB28 (at 0 -2.286) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
@@ -4103,12 +4103,12 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AFB5)
-    (at -110.188999 210.8838)
+    (at 273.05 48.26 180)
     (path /54E3F941)
-    (fp_text reference TB29 (at 0 -2.286) (layer F.SilkS)
+    (fp_text reference TB29 (at 0 -2.286 180) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
-    (fp_text value TermBlk (at 0 0) (layer F.SilkS) hide
+    (fp_text value TermBlk (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
     (fp_line (start -1.27 1.27) (end 3.81 1.27) (layer F.SilkS) (width 0.254))
@@ -4118,11 +4118,11 @@
     (fp_line (start -1.27 -1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 -1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
-    (pad 1 thru_hole rect (at -2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole rect (at -2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 152 "Net-(RE29-Pad1)"))
-    (pad 2 thru_hole oval (at 0 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 2 thru_hole oval (at 0 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 151 "Net-(RE29-Pad2)"))
-    (pad 3 thru_hole oval (at 2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 3 thru_hole oval (at 2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 153 "Net-(RE29-Pad3)"))
     (model Socket_Strips/Socket_Strip_Straight_1x03.wrl
       (at (xyz 0 0 0))
@@ -4132,7 +4132,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AFC3)
-    (at -74.248999 176.1138)
+    (at 274.32 146.05)
     (path /54E17E42)
     (fp_text reference TB30 (at 0 -2.286) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
@@ -4161,12 +4161,12 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AFD1)
-    (at -49.118999 148.2938)
+    (at 289.56 48.26 180)
     (path /54E3F947)
-    (fp_text reference TB31 (at 0 -2.286) (layer F.SilkS)
+    (fp_text reference TB31 (at 0 -2.286 180) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
-    (fp_text value TermBlk (at 0 0) (layer F.SilkS) hide
+    (fp_text value TermBlk (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
     (fp_line (start -1.27 1.27) (end 3.81 1.27) (layer F.SilkS) (width 0.254))
@@ -4176,11 +4176,11 @@
     (fp_line (start -1.27 -1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 -1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.254))
     (fp_line (start -3.81 1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.254))
-    (pad 1 thru_hole rect (at -2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole rect (at -2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 158 "Net-(RE31-Pad1)"))
-    (pad 2 thru_hole oval (at 0 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 2 thru_hole oval (at 0 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 157 "Net-(RE31-Pad2)"))
-    (pad 3 thru_hole oval (at 2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 3 thru_hole oval (at 2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 159 "Net-(RE31-Pad3)"))
     (model Socket_Strips/Socket_Strip_Straight_1x03.wrl
       (at (xyz 0 0 0))
@@ -4190,7 +4190,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E3A2F4) (tstamp 54E3AFDF)
-    (at -74.248999 170.7338)
+    (at 290.83 146.05)
     (path /54E17E56)
     (fp_text reference TB32 (at 0 -2.286) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
@@ -4347,7 +4347,7 @@
   )
 
   (module Discret:D3 (layer F.Cu) (tedit 54E3D58C) (tstamp 54E3D7BB)
-    (at 107.95 74.295)
+    (at 77.47 73.66)
     (descr "Diode 3 pas")
     (tags "DIODE DEV")
     (path /54E3F965)
