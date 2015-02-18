@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-jan-25)-product date = Tue 17 Feb 2015 06:56:34 PM EST
+Cmp-Mod V01 Created by CvPcb (2014-jan-25)-product date = Tue 17 Feb 2015 09:01:04 PM EST
 
 BeginCmp
 TimeStamp = /54E3F959;
@@ -228,7 +228,7 @@ BeginCmp
 TimeStamp = /54E1A6C2;
 Reference = P1;
 ValeurCmp = HE10-32;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x32;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x16;
 EndCmp
 
 BeginCmp
